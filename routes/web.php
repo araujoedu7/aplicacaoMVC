@@ -1,7 +1,7 @@
 <?php
 use App\Http\Controllers\SeriesController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\helloController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 
  Route::get('/series/' , [SeriesController::class, 'index']);
+ 
